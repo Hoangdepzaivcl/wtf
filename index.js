@@ -89,7 +89,7 @@ async function execScript(str) {
           fields: fields,
           description: description ?? "",
           author: {
-            name: `Thief Cat`,
+            name: `MoiXD`,
           },
   
           footer: {
